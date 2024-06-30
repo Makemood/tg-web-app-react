@@ -1,7 +1,8 @@
 import React from "react";
-import { useTelegram } from './hooks/useTelegram';
+import { useTelegram } from '../../../hooks/useTelegram'; 
 
-const Header = () => {
+
+export default Header = () => {
     const {user,onClose} = useTelegram();
     return (
         <div className={'header'}>

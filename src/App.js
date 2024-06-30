@@ -2,7 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import { useEffect } from 'react';
 import { useTelegram } from './hooks/useTelegram';
-//const {tg,user,onClose} = useTelegram();
+import Header from './components/Button/Header/Header'; 
+
+
 function App() {
 
   const {onToggleButton,tg} = useTelegram();

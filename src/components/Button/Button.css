@@ -1,48 +1,8 @@
 .button {
-    
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+    padding: 10px 15px;
     background: var(--tg-theme-button-color);
-    background-color: #007bff;
-    color: #fff;
-    font-weight: bold;
+    color: var(--tg-theme-button-text-color);
+    border: none;
+    outline: none;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.button:hover {
-    background-color: #0056b3;
-}
-
-.button:active {
-    background-color: #004080;
-    transform: translateY(2px);
-}
-
-.button-secondary {
-    background-color: #6c757d;
-}
-
-.button-secondary:hover {
-    background-color: #5a6268;
-}
-
-.button-secondary:active {
-    background-color: #495057;
-    transform: translateY(2px);
-}
-
-.button-disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-}
-
-.button-disabled:hover {
-    background-color: #6c757d;
-}
-
-.button-disabled:active {
-    background-color: #6c757d;
-    transform: none;
 }

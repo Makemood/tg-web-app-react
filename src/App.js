@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
-import { useEffect } from 'react';
-import { useTelegram } from './hooks/useTelegram';
-import Header from './components/Button/Header/Header'; 
+import {useEffect} from "react";
+import {useTelegram} from "./hooks/useTelegram";
+import Header from "./components/Header/Header";
 
 
 function App() {

@@ -17,6 +17,8 @@ const Form = () => {
         tg.sendData(JSON.stringify(data));
     }, [country, street, subject])
 
+
+    //add event listener to tg main button
     useEffect(() => {
         tg.onEvent('mainButtonClicked', onSendData)
         return () => {
